@@ -1,25 +1,29 @@
 {
-  "name": "react_js_learning",
+  "name": "react-js",
   "version": "1.0.0",
-  "description": "This is my Namaste React Project",
-  "main": "index.js",
+  "description": "This is React Based Application",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html --port 7000"
+    "start": "parcel tut1.html --port 3000",
+    "build": "parcel build tut1.html"
   },
   "author": "Rohit Arora",
   "license": "ISC",
   "dependencies": {
-    "@reduxjs/toolkit": "^2.2.6",
-    "parcel": "^2.12.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-redux": "^9.1.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1"
   },
   "devDependencies": {
-    "postcss": "^8.4.38",
-    "process": "^0.11.10",
-    "tailwindcss": "^3.4.4"
-  }
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "browserslist": [
+    "last 2 chrome versions",
+    "last 2 firefox versions"
+  ]
 }
