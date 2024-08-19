@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shimmer-item {
+    height: 200px;
+    margin: 30px;
+    background-color: #f0f0f0;
+}
+/* .shimmer-item {
+    height: 400px;
+    margin: 30px;
+    background-color: #f0f0f0;
+}
+
+header {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+header img {
+    width: 85px;
+    height: 80px;
+}
+
+nav{
+    width: 50%;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93%;
+    font-size: 20px;
+}
+nav ul li{
+    cursor: pointer;
+    list-style: none;
+}
+
+.cart_page{
+    display: flex;
+    width: 80%;
+    border: 2px solid black;
+    margin: auto;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.membersDetails{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 15px;
+}
+
+img[alt = "useravatar"]{
+    width: 150px;
+    height: 150px;
+}
+header button{
+    cursor: pointer;
+    width: 80px;
+    font-size: 17px;
+    height: 40px;
+} */
+
